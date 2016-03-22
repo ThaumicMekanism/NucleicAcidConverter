@@ -1,0 +1,21 @@
+{
+  "name": "keyboard",
+  "main": [
+    "js/jquery.keyboard.js",
+    "dist/js/jquery.keyboard.min.js",
+    "dist/css/keyboard.min.css",
+    "dist/layouts/keyboard-layouts-combined.min.js",
+    "dist/layouts/keyboard-layouts-greywyvern.min.js",
+    "dist/layouts/keyboard-layouts-microsoft.min.js"
+  ],
+  "ignore": [
+    "js/*.js",
+    "css/*.css",
+    "layouts/*.js",
+    "docs/*"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4.3",
+    "jquery-ui": ">=1.9.2"
+  }
+}

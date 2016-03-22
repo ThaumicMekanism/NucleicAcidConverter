@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Nucleic Acid Converter: DNA-mRNA-Protein Converter</title>
+        <link href="css/default.css" rel="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/button-checkbox_style.css">
+        <link rel="stylesheet" href="css/inputbox.css">
+        <!-- Alertify scripts and textures -->
+        <script src="js/alertify.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/alertify.css" />
+        <link rel="stylesheet" href="css/themes/default.css" />
+        <!-- ----------------------------- -->
+
+        <!-- Bootstrap scripts and textures -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-switch.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap-switch.js"></script>
+        
+        
+        <script src="js/clipboard.js"></script>
+        <style>
+        #custkeys { background: #444; position: relative; margin : auto; width: 50%;}
+        .inputLetters {
+           border: 2px solid #0a3c59;
+           background: #2d4707;
+           background: -webkit-gradient(linear, left top, left bottom, from(#4d7511), to(#2d4707));
+           background: -webkit-linear-gradient(top, #4d7511, #2d4707);
+           background: -moz-linear-gradient(top, #4d7511, #2d4707);
+           background: -ms-linear-gradient(top, #4d7511, #2d4707);
+           background: -o-linear-gradient(top, #4d7511, #2d4707);
+           background-image: -ms-linear-gradient(top, #4d7511 0%, #2d4707 100%);
+           padding: 4.5px 9px;
+           -webkit-border-radius: 0px;
+           -moz-border-radius: 0px;
+           border-radius: 0px;
+           -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+           -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+           box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+           text-shadow: #32f00c 0 1px 0;
+           color: #2910b3;
+           font-size: 24px;
+           /*font-family: helvetica, serif;*/
+           font-family:Monospace;
+           text-decoration: none;
+           vertical-align: middle;
+           }
+        .inputLetters:hover {
+           border: 2px solid #0a3c59;
+           text-shadow: #1e4158 0 1px 0;
+           background: #2d4707;
+           background: -webkit-gradient(linear, left top, left bottom, from(#4d7511), to(#2d4707));
+           background: -webkit-linear-gradient(top, #4d7511, #2d4707);
+           background: -moz-linear-gradient(top, #4d7511, #2d4707);
+           background: -ms-linear-gradient(top, #4d7511, #2d4707);
+           background: -o-linear-gradient(top, #4d7511, #2d4707);
+           background-image: -ms-linear-gradient(top, #4d7511 0%, #2d4707 100%);
+           color: #aedb1b;
+           }
+        .inputLetters:active {
+           text-shadow: #1e4158 0 1px 0;
+           border: 2px solid #0a3c59;
+           background: #4d7511;
+           background: -webkit-gradient(linear, left top, left bottom, from(#2d4707), to(#2d4707));
+           background: -webkit-linear-gradient(top, #2d4707, #4d7511);
+           background: -moz-linear-gradient(top, #2d4707, #4d7511);
+           background: -ms-linear-gradient(top, #2d4707, #4d7511);
+           background: -o-lin
+        </style>
+        <!-- ----------------------------- -->
+
+    </head>
+    <body><br>
+        <div class="app">
+            <h1 style="margin:5px;">Nucleic Acid Converter</h1><hr style="display: block; height: 1px; border: 0; border-top: 1px solid red; margin: 5px 0; padding: 0;">
+            <h2 align="center">Input Strand: </h2><h3 align="center">
+			  
+			  <div class="radio">
+            <form id='strand'>
+			<input id="DNA" type="radio" name="StrandType" value="DNA" onclick='inputStrandConv("DNA")' checked>
+			<label for="DNA"><font class="coa">DNA</font></label><font class="coa" color="#0066FF">OR </font>&nbsp;
+			<input id="mRNA" type="radio" name="StrandType" value="mRNA" onclick='inputStrandConv("mRNA")'>
+			<label for="mRNA"><font class="coa">mRNA</font></label>
+            </form>
+            <h3 align="center"><textarea name="input" id="input" style='margin-top: 5px;margin-bottom: 5px;' placeholder="Input Strand" onkeyup='caps(this.id)' onkeypress='caps(this.id)' onupdate='caps(this.id)' onkeydown="if(acceptChar(event.keyCode)==false){return false;}else{caps(this.id)}" data-resizable="true"></textarea>
+            <p class="toggle" style='color:green;font-size:15px;'>Input Keypad <img src='img\keyboard.svg' /></p>
+            <div id='custkeys' align='center' style='font-size:20px;display:none;font-family:Monospace;'><hr style="height:10px; visibility:hidden;" />
+               <a href='javascript:void(0);' id="custkeyA" onclick="document.getElementById('input').value=document.getElementById('input').value+this.innerHTML" class='inputLetters'>A</a> <a href='javascript:void(0);' id="custkeyTU" onclick="document.getElementById('input').value=document.getElementById('input').value+this.innerHTML" class='inputLetters'>T</a><hr style="height:10px; visibility:hidden;" /><hr style="height:10px; visibility:hidden;" />
+               <a href='javascript:void(0);' id="custkeyG" onclick="document.getElementById('input').value=document.getElementById('input').value+this.innerHTML" class='inputLetters'>G</a> <a href='javascript:void(0);' id="custkeyC" onclick="document.getElementById('input').value=document.getElementById('input').value+this.innerHTML" class='inputLetters'>C</a><hr style="height:10px; visibility:hidden;" />
+            </div>
+              <div class="wrapper">
+              <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+	
+	<br>
+	<input type="submit" value="Convert" class="styled-button-submit" id="convert" name="convert" onclick="nac();"></input>
+    <input type="submit" value="Clear" class="styled-button-reset" name="clear" onclick="clearall();"></input></h3>
+            <hr style="height:1px; visibility:hidden;" /><h2 align="center" style="font-size:.75em;">Output Strands:</h2>
+            <p>
+                DNA: 
+                <textarea name="outputDNA" id="outputDNA" readonly="readonly" class="Output" data-resizable="true"></textarea>
+                mRNA: 
+                <textarea name="outputmRNA" id="outputmRNA" readonly="readonly" class="Output" data-resizable="true"></textarea>
+                Protein: 
+                <textarea name="outputProtein" id="outputProtein" readonly="readonly" class="Output" data-resizable="true"></textarea>
+			    <!--<textarea name="outputbox" readonly="readonly" class="Output" data-resizable="false" id="outputbox" ></textarea>-->
+             </p><font align='center' size='1px'>v1.0.0</font>
+            <br>
+            
+		</div>
+        </div>	
+		</div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/algorithm.js"></script>
+        <script type="text/javascript" src="js/tmutilities.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+
+            eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('$("#D").W();$(".j").G(7(){2($(c).V("X")=="j"){$(c).H("j");$(c).B("E")}g{$(c).H("E");$(c).B("j")}$("#D").Y("S");6 e});7 Z(p){2(p==\'k\'){3.1(\'a\').5=3.1(\'a\').5.x(/T|t,/w,\'U\');3.1(\'r\').s=\'U\'}g{3.1(\'a\').5=3.1(\'a\').5.x(/U|u,/w,\'T\');3.1(\'r\').s=\'T\'}}7 11(l){3.1(l).5=3.1(l).5.P()}7 R(4){2(4==13){3.1(\'O\').G();6 e}2(4==Q){6 9}2(4==8){6 9}2(4==10){6 9}2(4==17){6 9}2(4==1j){6 9}2(4==1i){6 9}2(4!==1h){2(4!==1m){2(4!==1p){2(y(4)==e){6 e}}}}7 y(4){d f=m(3.1(\'q\'),\'z\');2(f==\'o\'){2(4==1o){6 9}}g 2(f==\'k\'){2(4==1n){6 9}}6 e}}7 1g(){d f=m(3.1(\'q\'),\'z\');d b=12(3.1(\'a\').5,f);2(b[\'v\']==\'9\'){N.v(b[\'18\']).14()}g{3.1(\'L\').5=b[\'o\'];3.1(\'M\').5=b[\'k\'];3.1(\'A\').5=b[\'19\']}}$(7(){$(\'.I\').1a(7(){$(\'.I\').K($(c).K())})});7 1e(){3.1(\'L\').5=\'\';3.1(\'M\').5=\'\';3.1(\'A\').5=\'\';3.1(\'a\').5=\'\';N.1d()}7 m(J,C){d n;d h=J.1c[C];1b(d i=0,F=h.15;i<F;i++){2(h[i].16){n=h[i].5;1l}}6 n}1k.1f();',62,88,'|getElementById|if|document|key|value|return|function||true|input|info|this|var|false|strandType|else|radios||toggle|mRNA|id|getRadioVal|val|DNA|type|strand|custkeyTU|innerHTML|||error|gi|replace|NAsel|StrandType|outputProtein|addClass|name|custkeys|add_active|len|click|removeClass|Output|form|scrollLeft|outputDNA|outputmRNA|alertify|convert|toUpperCase|46|acceptChar|fast|||attr|hide|class|slideToggle|inputStrandConv|40|caps|converter||dismissOthers|length|checked|37|message|Prot|scroll|for|elements|dismissAll|clearall|initialize|nac|65|38|39|app|break|67|85|84|71'.split('|'),0,{}))
+
+            
+            
+        </script>
+    </body>
+</html>

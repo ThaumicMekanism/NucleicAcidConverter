@@ -1,0 +1,62 @@
+{
+  "name": "virtual-keyboard",
+  "title": "Keyboard",
+  "description": "Virtual Keyboard using jQuery UI",
+  "version": "1.25.25",
+  "author": {
+    "name": "Jeremy Satterfield",
+    "url": "https://github.com/jsatt"
+  },
+  "maintainers": [
+    {
+      "name": "Rob Garrison",
+      "url": "https://github.com/Mottie",
+      "email": "wowmotty@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.4.3"
+  },
+  "keywords": [
+    "customizable",
+    "keyboard",
+    "ui",
+    "accessibility",
+    "osk",
+    "jquery-plugin"
+  ],
+  "homepage": "https://github.com/Mottie/Keyboard",
+  "demo": "http://mottie.github.io/Keyboard/",
+  "docs": "https://github.com/Mottie/Keyboard/wiki",
+  "bugs": "https://github.com/Mottie/Keyboard/issues",
+  "main": "dist/js/jquery.keyboard.min.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Mottie/keyboard.git"
+  },
+  "npmName": "virtual-keyboard",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-concat": "~1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-qunit": "~1.0.1",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}
