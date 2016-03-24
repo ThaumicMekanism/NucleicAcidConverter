@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.electrictoast.NucleicAcidConverter" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.electrictoast.NucleicAcidConverter" version="1.0.1">
   <name>Nucleic Acid Converter</name>
   <description>Converts DNA to mRNA to Amino Acid chains (Proteins). It also finds restriction sites.</description>
   <author href="http://nac.noip.me" email="nucleicacidconverter@gmail.com">ThaumicMekanism</author>
@@ -11,6 +11,9 @@
   <preference name="prerendered-icon" value="true"/>
   <preference name="stay-in-webview" value="false"/>
   <preference name="ios-statusbarstyle" value="black-opaque"/>
+  <preference name="StatusBarOverlaysWebView" value="true" /> 
+  <preference name="StatusBarBackgroundColor" value="#000000" />
+  <preference name="StatusBarStyle" value="lightcontent" />
   <preference name="detect-data-types" value="true"/>
   <preference name="exit-on-suspend" value="false"/>
   <preference name="show-splash-screen-spinner" value="true"/>
@@ -18,6 +21,7 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
   <gap:plugin name="org.apache.cordova.battery-status"/>
   <gap:plugin name="org.apache.cordova.camera"/>
   <gap:plugin name="org.apache.cordova.media-capture"/>
