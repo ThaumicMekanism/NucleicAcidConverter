@@ -1,0 +1,606 @@
+/* Empty. Add your own CSS if you like */
+.pane{
+    margin: 0px;
+	background: #002F43 url(../images/bg01.jpg) repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	color: #B9B9B9;
+}
+
+
+#loading{
+    display: none;
+    opacity: 90;
+
+
+}
+#loadingdiv {
+    background: rgba(0,0,0,0.5) url('../img/Art-of-the-Cell-RNA-Polymerase.gif') no-repeat 50% 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 999;/* Make the contents of the body opaque during loading */
+    opacity: 90;
+}
+#loadingtxt
+{
+    z-index:9999;
+    position:absolute;    
+    color:gold;
+    font-size:24px;
+    font-weight:bold;
+	width: 100%;
+	text-align:center;
+    top:75%;
+}#closeloading
+{
+    z-index:9999;
+    position:absolute;    
+    right:5%;
+    bottom:5%;
+}#slowclosetxt
+{
+    z-index:9999;
+    background:#717171;
+    position:absolute;    
+    left:5%;
+    bottom:5%;
+}
+
+
+.topbarmenu{
+    background-color: #EF473A !important; 
+}
+.topbarmenu h1 {
+    color: #81B3FF !important;
+}
+.bar-header{
+    background-color: #d73f34 !important;
+    color: #81B3FF !important;
+    font-family: 'Colors Of Autumn';
+}
+.header-item{
+    background-color: #d73f34 !important;
+    color: #81B3FF !important;
+    font-family: 'Colors Of Autumn';
+}
+.bar-stable .button{
+    color:gold !important;
+}
+
+.redblackmenu {
+  background-color: #3f4041 !important; /* This sets the background color*/
+ }
+ 
+/*Set the background to transparent for ion-item*/
+.redblackmenu .item {
+  background-color: transparent;
+  border:none;   /*Removes all borders*/
+  border-top: 1px solid;   /*Top Border for each menu item*/
+  border-bottom:2px solid;   /*Bottom border for each menu item*/
+  border-color: #666;   /*Sets colors for top and bottom border*/
+  color: white;    /*Text color for each item*/
+}
+.redblackmenu .item a{
+    color: #549E0A/*#336600*/ !important; 
+}
+ 
+/*Changes the border for the last item*/
+.redblackmenu .item:last-child {
+  border-bottom: 1px solid #666;
+}
+ 
+.redblackmenu .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent;
+}
+ 
+/*Just makes the type white*/
+.redblackmenu h2,
+.redblackmenu h3,
+.redblackmenu p,
+.redblackmenu a {
+  color: white;  /*Text color for each item, overrides the color property above*/
+}
+
+.app {
+    /*background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:1%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    padding:115px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+@font-face {
+    font-family: 'Colors Of Autumn'; /*a name to be used later*/
+    src: url('Colors Of Autumn.ttf'); /*URL to font*/
+}
+@font-face {
+	font-family: 'MYRIADPRO-REGULAR';
+	src: url('MYRIADPRO-REGULAR.OTF');
+}
+
+.coa{
+	font-family: 'Colors Of Autumn';
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'MYRIADPRO-REGULAR';
+}
+h1, h2, h3 {
+	margin-bottom: 1.5em;
+}
+
+h1 {
+	font-size: 1em;
+	font-family: 'Colors Of Autumn';
+	color: #0066FF;
+}
+
+h2 {
+	font-size: .75em;
+	margin: 0 !important;
+	font-family: 'Colors Of Autumn';
+	color: #0066FF;
+}
+
+h3 {
+	font-size: .55em;
+	font-family: 'Colors Of Autumn';
+}
+
+p, ul, ol {
+	margin-bottom: 1.5em;
+	line-height: 180%;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	color: #8AC800;
+	
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+strong {
+	color: #D7D7D7;
+}
+
+img.left {
+	float: left;
+	margin: 5px 25px 0px 0px;
+}
+
+img.right {
+	float: right;
+	margin: 5px 0px 0px 25px;
+}
+
+/* Background */
+
+#bg1 {
+	background: url(../images/bg02.jpg) no-repeat center top;
+}
+
+#bg2 {
+	background: url(../images/bg03.jpg) no-repeat center top;
+}
+
+#bg3 {
+	background: url(../images/bg04.jpg) repeat-y center top;
+}
+
+#bg4 {
+	background: url(../images/bg05.jpg) no-repeat center top;
+}
+
+#bg5 {
+	background: url(../images/bg06.jpg) no-repeat center bottom;
+}
+
+/* Header */
+
+#header {
+	width: 900px;
+	height: 145px;
+	margin: 0px auto;
+	text-transform: none;
+	color: #FFFFFF;
+	
+	
+}
+
+#header h1 {
+	float: left;
+	margin: 0px;
+	padding: 70px 0px 0px 25px;
+	font-size: 40px;
+}
+
+#header h1 sup {
+	font-weight: normal;
+}
+
+
+#header h2 {
+	float: right;
+	margin: 0px;
+	padding: 95px 25px 0px 0px;
+	font-size: 14px;
+
+	
+}
+
+#header a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Header2 */
+
+#header2 {
+	width: 900px;
+	height: 88px;
+	margin: 0px auto;
+	
+	
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 34px 0px 0px 0px;
+	list-style: none;
+	text-transform: none;
+}
+
+#menu li {
+	float: left;
+	
+}
+
+#menu a {
+	padding-left: 50px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* Search */
+
+#search {
+	float: right;
+}
+
+#search form {
+	margin: 0px;
+	padding: 35px 80px 0px 0px;
+}
+
+#search fieldset {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#search input.text {
+	width: 160px;
+	background: none;
+	border: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #AEC38B;
+}
+
+#search input.button {
+	display: none;
+}
+
+/* Page */
+
+#page {
+	width: 846px;
+	margin: 0px auto;
+	padding: 40px 0px 0px 0px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 583px;
+}
+
+.post {
+}
+
+.post .title {
+	height: 49px;
+	background: url(../images/img02.gif) no-repeat;
+}
+
+.post .title h2 {
+	float: left;
+	padding: 12px 0px 0px 24px;
+	font-size: 24px;
+	text-transform: lowercase;
+	
+}
+
+.post .title h2 a {
+	text-decoration: none;
+	color: #0066FF;
+}
+
+.post .title h2 a:hover {
+	color: #8AC800;
+}
+
+.post .title p {
+	float: right;
+	padding: 12px 24px 0px 0px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #343434;
+}
+
+.post .entry {
+	padding: 30px 23px 0px 23px;
+}
+
+.post .meta {
+	height: 70px;
+	clear: left;
+	margin: 0px 23px;
+	padding: 15px 0px 0px 0px;
+	border-top: 1px solid #262626;
+}
+
+.post .meta .credit {
+	float: left;
+}
+
+.post .meta .links {
+	float: right;
+}
+
+.post .meta .links .more {
+	padding-left: 17px;
+	background: url(../images/img05.gif) no-repeat left center;
+}
+
+.post .meta .links .comments {
+	padding-left: 19px;
+	background: url(../images/img04.gif) no-repeat left center;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 236px;
+}
+
+#sidebar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#sidebar li {
+	background: url(../images/img03.gif) no-repeat;
+	padding: 0px 23px 20px 23px;
+}
+
+#sidebar li ul {
+}
+
+#sidebar li li {
+	padding: 8px 0px;
+	background: none;
+	border-bottom: 1px solid #262626;
+}
+
+#sidebar h2 {
+	margin: 0px;
+	padding: 16px 0px 30px 0px;
+	text-transform: lowercase;
+	font-size: 14px;
+	color: #0066FF;
+}
+
+/* Footer */
+
+#footer {
+}
+
+#footer p {
+	margin: 0px;
+	padding: 20px 0px;
+	text-align: center;
+	text-transform: lowercase;
+	color: #566D77;
+}
+
+#footer a {
+	color: #8097A1;
+}
+
+html, body {height: 90%;}
+
+textarea {
+	border: 2px solid;
+	/*margin: 3px;*/
+	width: 100%;
+	height: 35px;
+	background-color: #444 !important;
+	font-family: monospace;
+	font-size: 10.4pt;
+	resize: none;
+	color: #00FF00;
+	border-color: #000000;
+	overflow-x: scroll;
+	white-space: nowrap;
+	
+	
+	
+}
+
+::-webkit-input-placeholder {
+   color: #990000;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #990000;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #990000;  
+}
+
+:-ms-input-placeholder {  
+   color: #990000;  
+}
+
+.wrapper {
+    text-align: center;
+	display: inline;
+}
+/*
+.button {
+	font-size: 24px;
+	/*
+	position: absolute;
+	top: 452px;
+	left: 876px;
+	*//*
+	width: 129px;
+	height: 46px;
+}*/
+.find{
+	font-size: 24px;
+	/*
+	position: absolute;
+	top: 808px;
+	left: 902px; */
+	width: 129px;
+	height: 46px;
+}
+.Output {
+	height: 35px;
+	width: 100%;
+}
+p { margin: 0 !important; }
+
+h6{
+   font-family: Verdana, Arial, sans-serif; 
+   /*font-size: 0.7em; */
+   color: #900;
+   background-color : #ffff00;
+}
+
+
+.styled-button-download {
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border-bottom-color:#333;
+	border:1px solid #61c4ea;
+	background-color:#7cceee;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#333;
+	/*font-family:'Verdana',Arial,sans-serif;*/
+	font-family: 'Colors Of Autumn';
+	font-size:14px;
+	text-shadow:#b2e2f5 0 1px 0;
+	padding:10px
+}
+.styled-button-submit {
+	background: #FEDA71;
+	background: -moz-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FEDA71),color-stop(100%,#FEBB49));
+	background: -webkit-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: -o-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: -ms-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#FEDA71',endColorstr='#FEBB49',GradientType=0);
+	padding:12px 27px;
+	color:#623F1D;
+	/*font-family:'Helvetica Neue',sans-serif;*/
+	font-family: 'Colors Of Autumn';
+	font-size:16px;
+	border-radius:48px;
+	-moz-border-radius:48px;
+	-webkit-border-radius:48px;
+	border:1px solid #623F1D
+	
+}
+.styled-button-submit:active {
+	background:#b1984f;
+	
+}
+.styled-button-reset {
+	background: #00A0D1;
+	background: -moz-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#00A0D1),color-stop(100%,#008DB8));
+	background: -webkit-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background: -o-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background: -ms-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background: linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00A0D1',endColorstr='#008DB8',GradientType=0);
+	padding:12px 27px;
+	color:#623F1D;
+	/*font-family:'Helvetica Neue',sans-serif;*/
+	font-family: 'Colors Of Autumn';
+	font-size:16px;
+	border-radius:48px;
+	-moz-border-radius:48px;
+	-webkit-border-radius:48px;
+	border:1px solid #095B7E
+}
+.styled-button-reset:active {
+    background:#0080a7;
+}
+.styled-button-remove{
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#990000;
+	background-color:#336699;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	/*font-family:'Helvetica Neue',Arial,sans-serif;*/
+	font-family: 'Colors Of Autumn';
+	font-size:16px;
+	font-weight:700;
+	height:32px;
+	padding:4px 16px;
+	text-shadow:#FE6 0 1px 0
+}
+
