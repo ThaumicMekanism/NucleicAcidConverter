@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.electrictoast.NucleicAcidConverter" version="1.0.3">
   <name>Nucleic Acid Converter</name>
   <description>Converts DNA to mRNA to Amino Acid chains (Proteins). It also finds restriction sites.</description>
-  <author href="http://nac.noip.me" email="nucleicacidconverter@gmail.com">ThaumicMekanism</author>
+  <author href="http://mucleicacidconverter.ml" email="nucleicacidconverter@gmail.com">ThaumicMekanism</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
@@ -37,30 +37,30 @@
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
   <icon src="icon.png"/>
-  <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
-  <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
-  <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
-  <icon src="www/res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi"/>
-  <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry"/>
-  <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry" gap:state="hover"/>
-  <icon src="www/res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57"/>
-  <icon src="www/res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72"/>
-  <icon src="www/res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114"/>
-  <icon src="www/res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
-  <icon src="www/res/icon/webos/icon-64.png" gap:platform="webos"/>
-  <icon src="www/res/icon/windows-phone/icon-48.png" gap:platform="winphone"/>
-  <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
-  <gap:splash src="www/res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
-  <gap:splash src="www/res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
-  <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
-  <gap:splash src="www/res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi"/>
-  <gap:splash src="www/res/screen/blackberry/screen-225.png" gap:platform="blackberry"/>
-  <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480"/>
-  <gap:splash src="www/res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960"/>
-  <gap:splash src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios" width="640" height="1136"/>
-  <gap:splash src="www/res/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024"/>
-  <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
-  <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="ldpi"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="mdpi"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="hdpi"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="xhdpi"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="blackberry"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="blackberry" gap:state="hover"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="ios" width="57" height="57"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="ios" width="72" height="72"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="ios" width="114" height="114"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="ios" width="144" height="144"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="webos"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="winphone"/>
+  <icon src="www/img/logo - NAC.jpg" gap:platform="winphone" gap:role="background"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-ldpi"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-mdpi"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-hdpi"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-xhdpi"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="blackberry"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="320" height="480"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="640" height="960"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="640" height="1136"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="768" height="1024"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="1024" height="768"/>
+  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="winphone"/>
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-intent href="http://*/*"/>
