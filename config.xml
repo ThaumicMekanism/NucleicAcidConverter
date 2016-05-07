@@ -3,6 +3,7 @@
   <description>Converts DNA to mRNA to Amino Acid chains (Proteins). It also finds restriction sites.</description>
   <author href="http://mucleicacidconverter.ml" email="nucleicacidconverter@gmail.com">ThaumicMekanism</author>
   <content src="index.html"/>
+  <preference name="fullscreen" value="true" />
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
