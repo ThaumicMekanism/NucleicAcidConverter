@@ -1,0 +1,95 @@
+<ion-view view-title="Restriction Site Finder" class='topbar'>
+  <ion-content>
+		<div class='app'>
+			<h1 style="margin:5px;">Restriction Site Finder</h1>
+            
+            <hr style="display: block; height: 1px; border: 0; border-top: 1px solid red; margin: 5px 0; padding: 0;"><font align='center' size='1px'>v1.0</font><br><br>
+			<h2 align="center">DNA Strand:</h2><br>
+			<textarea type="text" id="inputRSF" name="inputRE" onkeydown="if (event.keyCode == 13) {document.getElementById('cut').click(); return false;}" onkeyup="caps(this.id); this.value=this.value.replace(/[^AaTtGgCc]/g,'')" onkeypress="caps(this.id); " data-resizable="true" placeholder="Input Strand"></textarea>
+				<p class="toggle" style='color:green;font-size:15px;' onclick="togglekeyboard();">Input Keypad <img src='img\keyboard.svg' /></p>
+				<div id='custkeys' align='center' style='font-size:20px;display:block;font-family:Monospace;'><hr style="height:10px; visibility:hidden;" />
+				   <a href='javascript:void(0);' id='custkeyA' onclick="document.getElementById('inputRSF').value=document.getElementById('inputRSF').value+this.innerHTML;document.getElementById('inputRSF').scrollLeft=document.getElementById('inputRSF').scrollWidth;" class='inputLetters'>A</a> <a href='javascript:void(0);' id="custkeyTU" onclick="document.getElementById('inputRSF').value=document.getElementById('inputRSF').value+this.innerHTML;document.getElementById('inputRSF').scrollLeft=document.getElementById('inputRSF').scrollWidth;" class='inputLetters'>T</a><hr style="height:10px; visibility:hidden;" /><hr style="height:10px; visibility:hidden;" />
+				   <a href='javascript:void(0);' id="custkeyG" onclick="document.getElementById('inputRSF').value=document.getElementById('inputRSF').value+this.innerHTML;document.getElementById('inputRSF').scrollLeft=document.getElementById('inputRSF').scrollWidth;" class='inputLetters'>G</a> <a href='javascript:void(0);' id="custkeyC" onclick="document.getElementById('inputRSF').value=document.getElementById('inputRSF').value+this.innerHTML;document.getElementById('inputRSF').scrollLeft=document.getElementById('inputRSF').scrollWidth;" class='inputLetters'>C</a><hr style="height:10px; visibility:hidden;" />
+				</div>
+				<br>
+				<div class="checkbox" align="center"><form>
+					<input id="RE-1" type="checkbox" name="RE-1" value="RE-1" ><label for="RE-1">Restriction Enzyme 1</label>
+					<input id="REa-1" name="REa-1" type="text" value='Ava II' ovalue="Ava II" class='tbx'/><hr style="height:3px; visibility:hidden;" />
+					<input id="REb-1" name="REb-1" type="text" value='CCTGG' ovalue="CCTGG" onkeyup="caps(this.id);" class='tbx'/><br>
+					
+					<input id="RE-2" type="checkbox" name="RE-2" value="RE-2" ><label for="RE-2">Restriction Enzyme 2</label>
+					<input id="REa-2" name="REa-2" type="text" value='HindIII' ovalue="HindIII" class='tbx'/><hr style="height:3px; visibility:hidden;" />
+					<input id="REb-2" name="REb-2" type="text" value='TTCGAA' ovalue="TTCGAA" onkeyup="caps(this.id);" class='tbx'/><br>
+					
+					<input id="RE-3" type="checkbox" name="RE-3" value="RE-3" ><label for="RE-3">Restriction Enzyme 3</label>
+					<input id="REa-3" name="REa-3" type="text" value='Bam hI' ovalue="Bam hI" class='tbx'/><hr style="height:3px; visibility:hidden;" />
+					<input id="REb-3" name="REb-3" type="text" value='CCTAGG' ovalue="CCTAGG" onkeyup="caps(this.id);" class='tbx'/><br>
+					
+					<input id="RE-4" type="checkbox" name="RE-4" value="RE-4" ><label for="RE-4">Restriction Enzyme 4</label>
+					<input id="REa-4" name="REa-4" type="text" value='Bgl II' ovalue="Bgl II" class='tbx'/><hr style="height:3px; visibility:hidden;" />
+					<input id="REb-4" name="REb-4" type="text" value='TCTAGA' ovalue="TCTAGA" onkeyup="caps(this.id);" class='tbx'/><br>
+					
+					<input id="RE-5" type="checkbox" name="RE-5" value="RE-5" ><label for="RE-5">Restriction Enzyme 5</label>
+					<input id="REa-5" name="REa-5" type="text" value='Hpa II' ovalue="Hpa II" class='tbx'/><hr style="height:3px; visibility:hidden;" />
+					<input id="REb-5" name="REb-5" type="text" value='GGCC' ovalue="GGCC" onkeyup="caps(this.id);" class='tbx'/><br>
+					
+					<input id="RE-6" type="checkbox" name="RE-6" value="RE-6" ><label for="RE-6">Restriction Enzyme 6</label>
+					<input id="REa-6" name="REa-6" type="text" value='Eco RI' ovalue="Eco RI" class='tbx'/><hr style="height:3px; visibility:hidden;" />
+					<input id="REb-6" name="REb-6" type="text" value='CTTAAG' ovalue="CTTAAG" onkeyup="caps(this.id);" class='tbx'/><br>
+					
+					<input id="RE-7" type="checkbox" name="RE-7" value="RE-7" ><label for="RE-7">Restriction Enzyme 7</label>
+					<input id="REa-7" name="REa-7" type="text" value='Sac I' ovalue="Sac I" class='tbx'/><hr style="height:3px; visibility:hidden;" />
+					<input id="REb-7" name="REb-7" type="text" value='CTCGAG' ovalue="CTCGAG" onkeyup="caps(this.id);" class='tbx'/><br>
+					
+					<input id="RE-8" type="checkbox" name="RE-8" value="RE-8" ><label for="RE-8">Restriction Enzyme 8</label>
+					<input id="REa-8" name="REa-8" type="text" value='Xma I' ovalue="Xma I" class='tbx'/><hr style="height:3px; visibility:hidden;" />
+					<input id="REb-8" name="REb-8" type="text" value='GGGCCC' ovalue="GGGCCC" onkeyup="caps(this.id);" class='tbx'/><br>
+					
+					<input id="RE-9" type="checkbox" name="RE-9" value="RE-9" ><label for="RE-9">Restriction Enzyme 9</label>
+					<input id="REa-9" name="REa-9" type="text" value='Dra I' ovalue="Dra I" class='tbx'/><hr style="height:3px; visibility:hidden;" />
+					<input id="REb-9" name="REb-9" type="text" value='TTTAAA' ovalue="TTTAAA" onkeyup="caps(this.id);" class='tbx'/><br>
+					
+					<div id='extraRS'>
+					
+					</div>
+					
+					</form>
+					
+					
+								
+				</div>
+				
+				<br>
+			<input type="submit" value="Find" name="find" id="cut" onclick='cutDNA();' class="styled-button-submit"></input>
+                <input type="submit" value="Reset" id='resetrsf' name="clear" onclick="rsfFullReset();" class="styled-button-reset" ></input></h2>
+				<br><br><br>
+			<!--<div id="rsfOutput" style="overflow:scroll;height:350px; width:250px; white-space:pre; font-size:18px; white-space: nowrap; color:gold; background-color:#444;"></div>-->
+            <!-- 
+            Input Strand: 
+            <textarea name="RSFiOutput" id="RSFiOutput" readonly="readonly" class="rsfOutput" data-resizable="true"></textarea>
+            Cut Strand: 
+            <textarea name="RSFcOutput" id="RSFcOutput" readonly="readonly" class="rsfOutput" data-resizable="true"></textarea>
+            Active Restriction Sites; Number of Sites:
+           
+           <textarea name="RSFeOutput" id="RSFeOutput" readonly="readonly" style="overflow:scroll;height:350px;font-size:18px; color:gold; background-color:#444;" data-resizable="true"></textarea>-->
+			
+			<h2 align="center">Output:</h2><br><br>
+			
+            <ion-scroll direction="xy" style="height:350px;background-color:#444;" align="left">
+                <div id="RSFeOutput" style="font-size:18px; color:gold; white-space:nowrap;"></div>
+            </ion-scroll>
+            
+            <br>
+		</div> 
+        <script>/*
+        $(function(){
+
+                $('.rsfOutput').scroll(function(){
+                    $('.rsfOutput').scrollLeft($(this).scrollLeft());    
+                })
+
+            });*/
+        </script>
+<!--overflow:scroll;height:350px; font-size:18px; color:gold; background-color:#444; -->
+  </ion-content>
+</ion-view>
