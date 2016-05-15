@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.electrictoast.NucleicAcidConverter" version="1.0.5">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.electrictoast.NucleicAcidConverter" version="1.0.6">
   <name>Nucleic Acid Converter</name>
   <description>Converts DNA to mRNA to Amino Acid chains (Proteins). It also finds restriction sites.</description>
   <author href="http://mucleicacidconverter.ml" email="nucleicacidconverter@gmail.com">ThaumicMekanism</author>
