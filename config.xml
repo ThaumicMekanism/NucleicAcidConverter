@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.electrictoast.NucleicAcidConverter" version="1.0.13">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.electrictoast.NucleicAcidConverter" version="1.0.14">
   <name>Nucleic Acid Converter</name>
   <description>Converts DNA to mRNA to Amino Acid chains (Proteins). It also finds restriction sites.</description>
   <author href="http://mucleicacidconverter.ml" email="nucleicacidconverter@gmail.com">ThaumicMekanism</author>
@@ -51,18 +51,18 @@
   <icon src="www/img/logo - NAC.jpg" gap:platform="winphone"/>
   <icon src="www/img/logo - NAC.jpg" gap:platform="winphone" gap:role="background"/>
 
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-ldpi"/>
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-mdpi"/>
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-hdpi"/>
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-xhdpi"/>
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="blackberry"/>
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="ios" width="320" height="480"/>
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="ios" width="640" height="960"/>
+  <gap:splash src="img/naclogo.png" gap:platform="android" gap:qualifier="port-ldpi"/>
+  <gap:splash src="img/naclogo.png" gap:platform="android" gap:qualifier="port-mdpi"/>
+  <gap:splash src="img/naclogo.png" gap:platform="android" gap:qualifier="port-hdpi"/>
+  <gap:splash src="img/naclogo.png" gap:platform="android" gap:qualifier="port-xhdpi"/>
+  <gap:splash src="img/naclogo.png" gap:platform="blackberry"/>
+  <gap:splash src="img/naclogo.png" gap:platform="ios" width="320" height="480"/>
+  <gap:splash src="img/naclogo.png" gap:platform="ios" width="640" height="960"/>
 
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="ios" width="640" height="1136"/>
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="ios" width="768" height="1024"/>
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="ios" width="1024" height="768"/>
-  <gap:splash src="img/logo - NAC.jpg" gap:platform="winphone"/>
+  <gap:splash src="img/naclogo.png" gap:platform="ios" width="640" height="1136"/>
+  <gap:splash src="img/naclogo.png" gap:platform="ios" width="768" height="1024"/>
+  <gap:splash src="img/naclogo.png" gap:platform="ios" width="1024" height="768"/>
+  <gap:splash src="img/naclogo.png" gap:platform="winphone"/>
 
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
