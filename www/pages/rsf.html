@@ -4,6 +4,7 @@
 			<h1 style="margin:5px;">Restriction Site Finder</h1>
             
             <hr style="display: block; height: 1px; border: 0; border-top: 1px solid red; margin: 5px 0; padding: 0;"><font align='center' size='1px'>v1.0</font><br><br>
+			<a id='tstbttn'>click here to test alert</a>
 			<h2 align="center">DNA Strand:</h2><br>
 			<textarea type="text" id="inputRSF" name="inputRE" onkeydown="if (event.keyCode == 13) {document.getElementById('cut').click(); return false;}" onkeyup="caps(this.id); this.value=this.value.replace(/[^AaTtGgCc]/g,'')" onkeypress="caps(this.id); " data-resizable="true" placeholder="Input Strand"></textarea>
 				<p class="toggle" style='color:green;font-size:15px;' onclick="togglekeyboard();">Input Keypad <img src='img\keyboard.svg' /></p>
