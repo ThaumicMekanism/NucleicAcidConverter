@@ -51,7 +51,18 @@
   <icon src="www/img/logo - NAC.jpg" gap:platform="winphone"/>
   <icon src="www/img/logo - NAC.jpg" gap:platform="winphone" gap:role="background"/>
 
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-ldpi"/>
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-mdpi"/>
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-hdpi"/>
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="android" gap:qualifier="port-xhdpi"/>
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="blackberry"/>
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="ios" width="320" height="480"/>
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="ios" width="640" height="960"/>
+
   <gap:splash src="img/naclogo.png" gap:platform="ios" width="640" height="1136"/>
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="ios" width="768" height="1024"/>
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="ios" width="1024" height="768"/>
+  <gap:splash src="img/logo - NAC.jpg" gap:platform="winphone"/>
 
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
