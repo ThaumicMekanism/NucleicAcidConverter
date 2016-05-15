@@ -57,7 +57,7 @@
   <gap:splash src="www/img/logo - NAC.jpg" gap:platform="blackberry"/>
   <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="320" height="480"/>
   <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="640" height="960"/>
-  <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="640" height="1136"/>
+  <gap:splash src="www/img/naclogo.png" gap:platform="ios" width="640" height="1136"/>
   <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="768" height="1024"/>
   <gap:splash src="www/img/logo - NAC.jpg" gap:platform="ios" width="1024" height="768"/>
   <gap:splash src="www/img/logo - NAC.jpg" gap:platform="winphone"/>
