@@ -4,7 +4,7 @@
     <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi" /> 
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /> 
     <title>Nucleic Acid Converter</title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
@@ -89,6 +89,8 @@
   </head>
 
   <body ng-app="starter">
+ 
+  
 	<div id="loading">
 		<div id='loadingdiv'></div><h2 id='loadingtxt'>Loading...</h2><p id='slowclosetxt' style='color:red;display:none;width:50%;'>This program's loading screen may not be responding!</p><input type="submit" value="Close" id="closeloading" style="display:none;" class="styled-button-reset" onclick='loadingscreen("hide");'></input>
 	</div>
@@ -99,9 +101,292 @@
     <script type="text/javascript" src="js/tmutilities.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
-        eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('9 v=1M;6 g(f){9 D=1N;4(f==\'y\'){g(\'h\');2.3(\'11\').k.l=\'H\';9 v=n(G,D)}4(f==\'h\'){2.3(\'11\').k.l=\'A\';2.3(\'Y\').k.l=\'A\';2.3(\'Z\').k.l=\'A\';2.3(\'W\').q=\'X...\';14(v)}4(f==\'19\'){2.3(\'Z\').k.l=\'H\';2.3(\'Y\').k.l=\'H\'}4(f.12(0,10)==\'1U=\'){2.3(\'W\').q=\'X...\'+f.12(10);14(v);9 v=n(G,D)}}6 G(){g(\'19\')}6 17(){g(\'y\');4(2.3("m").5!=\'\'){2.3("m").5=2.3("m").5.15();9 b=1F(2.3("m").5,\'1a-\',\'E-\',\'z-\');1u.1v(b);4(b[\'o\']==\'d\'){w.o(b[\'1o\']).1e()}j{2.3(\'16\').q="1t 18:<e><e>"+2.3("m").5+"<e><e>1s 18:<e><e>"+b[\'17\']+"<e><e>1r 1w V; 1x 1D V:<e><e>"+b[\'1C\']}}j{w.o(\'1B c 1y 1z! 1A 1X 1W 2k 2f c.\')}9 h=n(6(){g(\'h\')},I)}6 2g(){g(\'y\');2.3(\'m\').5=\'\';2.3(\'16\').q="";9 i=1;2h(i<10){2.3(\'1a-\'+i).1c=p;2.3(\'E-\'+i).5=2.3(\'E-\'+i).R(\'S\');2.3(\'z-\'+i).5=2.3(\'z-\'+i).R(\'S\');i++}9 h=n(6(){g(\'h\')},I)}6 2l(){4($(r).2e("2c")=="f"){$(r).O("f");$(r).P("Q")}j{$(r).O("Q");$(r).P("f")}$("#20").1Y("1Z");a p}6 24(){6 1b(){2.3(\'c\').25=1;2a=n(1b,10)}w.o(2.3(\'c\').29)}6 28(N){4(N==\'B\'){2.3(\'c\').5=2.3(\'c\').5.K(/T|t,/M,\'U\');2.3(\'L\').q=\'U\'}j{2.3(\'c\').5=2.3(\'c\').5.K(/U|u,/M,\'T\');2.3(\'L\').q=\'T\'}}6 1q(F){2.3(F).5=2.3(F).5.15()}6 1V(7){4(7==13){2.3(\'1P\').1I();a p}4(7==1K){a d}4(7==8){a d}4(7==1G){a d}4(7==1p){a d}4(7==2n){a d}4(7==21){a d}4(7!==27){4(7!==26){4(7!==2b){4(1n(7)==p){a p}}}}6 1n(7){9 s=J(2.3(\'1g\'),\'1f\');4(s==\'1d\'){4(7==2d){a d}}j 4(s==\'B\'){4(7==23){a d}}a p}}6 2m(){g(\'y\');9 s=J(2.3(\'1g\'),\'1f\');9 b=2j(2.3(\'c\').5,s);4(b[\'o\']==\'d\'){w.o(b[\'1o\']).1e()}j{2.3(\'1i\').5=b[\'1d\'];2.3(\'1m\').5=b[\'B\'];2.3(\'1l\').5=b[\'1R\']}9 h=n(6(){g(\'h\')},I)}6 1T(){2.3(\'1i\').5=\'\';2.3(\'1m\').5=\'\';2.3(\'1l\').5=\'\';2.3(\'c\').5=\'\';w.1L()}6 J(1j,1k){9 C;9 x=1j.1H[1k];1S(9 i=0,1h=x.1Q;i<1h;i++){4(x[i].1c){C=x[i].5;22}}a C}r.2i().1E(1O.1J.2o);',62,149,'||document|getElementById|if|value|function|key||var|return|info|input|true|br|toggle|loadingscreen|hide||else|style|display|inputRSF|setTimeout|error|false|innerHTML|this|strandType|||loadingtime|alertify|radios|show|REb|none|mRNA|val|ltint|REa|id|lstimeout|block|1000|getRadioVal|replace|custkeyTU|gi|type|removeClass|addClass|add_active|getAttribute|ovalue|||Sites|loadingtxt|Loading|closeloading|slowclosetxt||loading|substring||clearTimeout|toUpperCase|RSFeOutput|cutDNA|Strand|timeoutf|RE|pageScroll|checked|DNA|dismissOthers|StrandType|strand|len|outputDNA|form|name|outputProtein|outputmRNA|NAsel|message|37|caps|Active|Cut|Input|console|log|Restriction|Number|is|empty|Please|The|REstuff|of|setSoftInputMode|restrictionSiteFinder|40|elements|click|LayoutParams|46|dismissAll|null|5000|WindowManager|convert|length|Prot|for|clearall|updatetxt|acceptChar|something|enter|slideToggle|fast|custkeys|38|break|85|fscrollleft|scrollLeft|67|65|inputStrandConv|scrollleft|scrolldelay|71|class|84|attr|the|rsfFullReset|while|getWindow|converter|in|togglekeyboard|nac|39|SOFT_INPUT_STATE_ALWAYS_HIDDEN'.split('|'),0,{}))
 
+        /*var pressTimer
 
+				$('resetrsf').mouseup(function(){
+				  clearTimeout(pressTimer)
+				  // Clear timeout
+				  return false;
+				}).mousedown(function(){
+				  // Set timeout
+				  alert('hi');
+				  pressTimer = window.setTimeout(function() {alert('held');},1000);
+				  
+				  return false; 
+				}).click(function(){ alert('his');return false; });*/
+		
+		angular.module('LoadingApp', ['ionic'])
+		.controller('LoadingCtrl', function($scope, $ionicLoading) {
+		  $scope.show = function() {
+			$ionicLoading.show({
+			  template: 'Loading...'
+			}).then(function(){
+			   console.log("The loading indicator is now displayed");
+			});
+		  };
+		  $scope.hide = function(){
+			$ionicLoading.hide().then(function(){
+			   console.log("The loading indicator is now hidden");
+			});
+		  };
+		});
+		function onDeviceReady(){
+			
+		}
+		
+		var loadingtime=null;
+		function loadingscreen(toggle){
+			var ltint=5000;
+			if(toggle=='show'){
+				loadingscreen('hide');
+				document.getElementById('loading').style.display='block';
+				var loadingtime = setTimeout(lstimeout, ltint);
+			}if(toggle=='hide'){
+				document.getElementById('loading').style.display='none';
+				document.getElementById('closeloading').style.display='none';
+				document.getElementById('slowclosetxt').style.display='none';
+				document.getElementById('loadingtxt').innerHTML='Loading...';
+				clearTimeout(loadingtime);
+			}if(toggle=='timeoutf'){
+				document.getElementById('slowclosetxt').style.display='block';
+				document.getElementById('closeloading').style.display='block';
+			}if(toggle.substring(0,10)=='updatetxt='){
+				document.getElementById('loadingtxt').innerHTML='Loading...'+toggle.substring(10);
+				clearTimeout(loadingtime);
+				var loadingtime = setTimeout(lstimeout, ltint);
+			}
+		}function lstimeout(){loadingscreen('timeoutf');}
+        
+        function hammingCounter(){
+            loadingscreen('show');
+                var info = hammingCode(document.getElementById('input1').value,document.getElementById('input2').value);
+                if(info['error']=='true'){
+                    alertify.error(info['message']).dismissOthers();
+                }else{
+                    document.getElementById('HammingOutput').innerHTML="First DNA Strand: &nbsp;"+document.getElementById("input1").value+"<br>Second DNA Strand: "+document.getElementById("input2").value+"<br>Differences: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+info["diff"]+"<br><br>Number of Differences:<br>"+info["numdiff"];
+                }
+            var hide=setTimeout(function(){loadingscreen('hide')},1000);
+        }
+        
+		function cutDNA(){
+		loadingscreen('show');
+			if(document.getElementById("inputRSF").value!=''){
+				
+			
+				document.getElementById("inputRSF").value=document.getElementById("inputRSF").value.toUpperCase();
+				var info=restrictionSiteFinder(document.getElementById("inputRSF").value,'RE-','REa-','REb-');
+				console.log(info);
+				if(
+				info['error']=='true'){
+						alertify.error(info['message']).dismissOthers();
+				}else{
+					//document.getElementById('RSFiOutput').value=document.getElementById("inputRSF").value;
+					//document.getElementById('RSFcOutput').value=info['cutDNA'];
+					document.getElementById('RSFeOutput').innerHTML="Input Strand:<br><br>"+document.getElementById("inputRSF").value+"<br><br>Cut Strand:<br><br>"+info['cutDNA']+"<br><br>Active Restriction Sites; Number of Sites:<br><br>"+info['REstuff'];
+				}
+			}else{
+				alertify.error('The input is empty! Please enter something in the input.');
+			}
+			var hide=setTimeout(function(){loadingscreen('hide')},1000);
+		}
+        
+        function rsfFullReset(){
+			loadingscreen('show');
+            document.getElementById('inputRSF').value='';
+            document.getElementById('RSFeOutput').innerHTML="";
+            var i=1;
+            while(i<10){
+                document.getElementById('RE-'+i).checked=false;
+                document.getElementById('REa-'+i).value=document.getElementById('REa-'+i).getAttribute('ovalue');
+                document.getElementById('REb-'+i).value=document.getElementById('REb-'+i).getAttribute('ovalue');
+                i++;
+            }
+			var hide=setTimeout(function(){loadingscreen('hide')},1000);
+        }
+		
+		function togglekeyboard(){
+        
+         //$("#custkeys").hide(); 
+         if($(this).attr("class") == "toggle"){ 
+            $(this).removeClass("toggle");
+            $(this).addClass("add_active"); 
+        }else{ 
+            $(this).removeClass("add_active"); 
+            $(this).addClass("toggle"); 
+        } 
+        $("#custkeys").slideToggle("fast"); 
+        return false;
+        
+        }
+        
+        /*
+            $("#custkeys").hide(); 
+                $("#custkeys").click(function(){    
+                if($(this).attr("class") == "toggle"){
+                    $(this).removeClass("toggle");
+                    $(this).addClass("add_active");
+                }else{
+                    $(this).removeClass("add_active");
+                    $(this).addClass("toggle");
+                }
+                $("#custkeys").slideToggle("fast");
+                return false;
+            });
+            */
+        
+        
+		
+			function fscrollleft(){
+				//while(true){
+					function pageScroll() {
+						document.getElementById('input').scrollLeft=1;
+						scrolldelay = setTimeout(pageScroll,10);
+					}
+				
+				//}
+				alertify.error(document.getElementById('input').scrollleft);
+			}
+			
+            function custkeys(btn){
+                if(document.getElementById("DNA2").checked){
+                    var DNAinput="input2";
+                }else{
+                    var DNAinput="input1";
+                }
+                document.getElementById(DNAinput).value=document.getElementById(DNAinput).value+btn.innerHTML;
+                document.getElementById(DNAinput).scrollLeft=document.getElementById(DNAinput).scrollWidth;
+            }
+            
+            function hamKey(){
+                
+            }
+            
+            function inputStrandConv(type){
+                if(type=='mRNA'){
+                    document.getElementById('input').value=document.getElementById('input').value.replace(/T|t,/gi, 'U');
+                    document.getElementById('custkeyTU').innerHTML='U';
+                }else{
+                    document.getElementById('input').value=document.getElementById('input').value.replace(/U|u,/gi, 'T');
+                    document.getElementById('custkeyTU').innerHTML='T';
+                }
+            }
+            function caps(id){
+				if(id=='input1' || id=='input2'){
+					document.getElementById(id).value=document.getElementById(id).value.replace(/-/gi, "_");
+					document.getElementById(('lenght'+id)).innerHTML=document.getElementById((id)).value.length;
+					if(document.getElementById('input1').value.length !== document.getElementById('input2').value.length){
+						document.getElementById('hstrlength1').setAttribute('color','red');
+						document.getElementById('hstrlength2').setAttribute('color','red');
+					}else{
+						document.getElementById('hstrlength1').setAttribute('color','green');
+						document.getElementById('hstrlength2').setAttribute('color','green');
+					}
+					
+				}
+                document.getElementById(id).value = document.getElementById(id).value.toUpperCase();
+            }
+            function acceptChar(key){
+                if (key == 13) { 
+                    document.getElementById('convert').click(); 
+                    return false; 
+                }
+                if(key == 46){return true;}
+                if(key == 8){return true;}
+                if(key == 40){return true;}
+                if(key == 37){return true;}
+                if(key == 39){return true;}
+                if(key == 38){return true;}
+                if(key !== 65){
+                    if(key !== 67){
+                        if(key !== 71){
+                            if(NAsel(key)==false){
+                                return false;
+                            }
+                        }
+                    }
+                }
+                
+                function NAsel(key){
+                    var strandType = getRadioVal(document.getElementById('strand'),'StrandType');
+                    if(strandType == 'DNA'){
+                        if(key == 84){return true;}
+                    }else if(strandType == 'mRNA'){
+                        if(key == 85){return true;}
+                    }
+                    return false;
+                }
+            }function acceptCharh(key){
+                if (key == 13) { 
+                    document.getElementById('compare').click(); 
+                    return false; 
+                }
+                if(key == 46){return true;}
+                if(key == 8){return true;}
+                if(key == 40){return true;}
+                if(key == 37){return true;}
+                if(key == 39){return true;}
+                if(key == 38){return true;}
+				if(key == 84){return true;}
+				if(key == 189){return true;}
+                if(key !== 65){
+                    if(key !== 67){
+                        if(key !== 71){
+                            return false;
+                        }
+                    }
+                }
+            }
+			
+            
+            function nac(){
+			loadingscreen('show');
+                var strandType = getRadioVal(document.getElementById('strand'),'StrandType');
+                var info = converter(document.getElementById('input').value,strandType);
+                if(info['error']=='true'){
+                    alertify.error(info['message']).dismissOthers();
+                }else{
+                    document.getElementById('outputDNA').value=info['DNA'];
+                    document.getElementById('outputmRNA').value=info['mRNA'];
+                    document.getElementById('outputProtein').value=info['Prot'];
+                }
+			var hide=setTimeout(function(){loadingscreen('hide')},1000);
+            }
+            
+            function clearall(){
+                document.getElementById('outputDNA').value='';
+                document.getElementById('outputmRNA').value='';
+                document.getElementById('outputProtein').value='';
+                document.getElementById('input').value='';
+                alertify.dismissAll();
+            }
+            
+            function clearHamming(){
+                document.getElementById('input1').value='';
+                document.getElementById('input2').value='';
+                document.getElementById('HammingOutput').innerHTML='';
+                document.getElementById('DNA1').checked=true;
+                document.getElementById('DNA2').checked=false;
+                alertify.dismissAll();
+            }
+            
+            
+            function getRadioVal(form, name) {
+                var val;
+                // get list of radio buttons with specified name
+                var radios = form.elements[name];
+                
+                // loop through list of radio buttons
+                for (var i=0, len=radios.length; i<len; i++) {
+                    if ( radios[i].checked ) { // radio checked?
+                        val = radios[i].value; // if so, hold its value in val
+                        break; // and break out of for loop
+                    }
+                }
+                return val; // return value of checked radio or undefined if none checked
+            }
+			this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+			
 			
             
             

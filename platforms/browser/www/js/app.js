@@ -54,7 +54,13 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: 'pages/rsf.html',
-          controller: 'PlaylistsCtrl'
+        }
+      }
+    }).state('app.hamming', {
+      url: '/hamming',
+      views: {
+        'menuContent': {
+          templateUrl: 'pages/hamming.html',
         }
       }
     });

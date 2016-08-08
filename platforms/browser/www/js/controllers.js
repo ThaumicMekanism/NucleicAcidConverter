@@ -54,3 +54,13 @@ angular.module('starter.controllers', [])
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
+
+
+angular.module('starter.controllers', [])
+.run(function($ionicPlatform) {
+  $ionicPlatform.ready(function() {
+    setTimeout(function() {
+        navigator.splashscreen.hide();
+    }, 300);
+ });
+})

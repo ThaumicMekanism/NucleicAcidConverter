@@ -1,17 +1,21 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.electrictoast.NucleicAcidConverter" version="1.0.3a">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.thaumictech.NucleicAcidConverter" version="1.1">
   <name>Nucleic Acid Converter</name>
   <description>Converts DNA to mRNA to Amino Acid chains (Proteins). It also finds restriction sites.</description>
   <author href="http://mucleicacidconverter.ml" email="nucleicacidconverter@gmail.com">ThaumicMekanism</author>
   <content src="index.html"/>
+  <preference name="fullscreen" value="true" />
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
   <preference name="fullscreen" value="true"/>
-  <preference name="webviewbounce" value="false"/>
+  <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
   <preference name="stay-in-webview" value="false"/>
+  <preference name="ios-statusbarstyle" value="black-opaque"/>
   <preference name="detect-data-types" value="true"/>
   <preference name="exit-on-suspend" value="false"/>
+  <preference name="show-splash-screen-spinner" value="false"/>
+  <preference name="auto-hide-splash-screen" value="false"/>
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
@@ -33,7 +37,16 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
+  
   <icon src="icon.png"/>
+  <icon src="Icon-Small.png" platform="ios" width="29" height="29" density="mdpi" />
+  <icon src="Icon-Small@2x.png" platform="ios" width="29" height="29" density="mdpi" />
+  <icon src="Icon-40.png" platform="ios" width="40" height="40" density="mdpi" />
+  <icon src="Icon-40@2x.png" platform="ios" width="40" height="40" density="mdpi" />
+  <icon src="Icon-60@2x.png" platform="ios" width="60" height="60" density="mdpi" />
+  <icon src="Icon-76.png" platform="ios" width="76" height="76" density="mdpi" />
+  <icon src="Icon-76@2x.png" platform="ios" width="76" height="76" density="mdpi" />
+  
   <icon src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="www/img/logo - NAC.jpg" gap:platform="android" gap:qualifier="hdpi"/>
