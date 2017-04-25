@@ -3,7 +3,6 @@
   <description>Converts DNA to mRNA to Amino Acid chains (Proteins). It also finds restriction sites.</description>
   <author href="http://mucleicacidconverter.ml" email="nucleicacidconverter@gmail.com">ThaumicMekanism</author>
   <content src="index.html"/>
-  <preference name="phonegap-version" value="cli-6.5.0" />
   <preference name="fullscreen" value="true" />
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
@@ -22,7 +21,6 @@
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
-  <gap:plugin name="org.apache.cordova.battery-status"/>
   <gap:plugin name="org.apache.cordova.camera"/>
   <gap:plugin name="org.apache.cordova.media-capture"/>
   <gap:plugin name="org.apache.cordova.console"/>
