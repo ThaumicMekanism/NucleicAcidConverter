@@ -2,15 +2,15 @@
   <ion-content>
     <div class="app">
             <h1 style="margin:5px;">Hamming Calculator</h1><hr style="display: block; height: 1px; border: 0; border-top: 1px solid red; margin: 5px 0; padding: 0;">
-			<font align='center' size='1px'>v1.0</font>
+			<font align='center' size='1px'>v1.1</font>
             <h2 align="center">First DNA Strand: </h2>
 			  
 			  <div class="radio">
             <h3 align="center"><textarea name="input1" id="input1" style='margin-top: 5px;margin-bottom: 5px;' placeholder="First DNA Strand" onkeyup='caps(this.id)' onkeypress='caps(this.id)' onupdate='caps(this.id)' onkeydown="if(acceptCharh(event.keyCode)==false){return false;}else{return true;}" oninput='console.log(this.value);' data-resizable="true"></textarea>
-            <font align='center' id="hstrlength1" color="green" size='1px'>Strand length: <text id="lenghtinput1">0</text></font><br>
+            <font align='center' id="hstrlength1" color="green" size='1px'>Strand length: <text id="lengthinput1">0</text></font><br>
 			<h2 align="center">Second DNA Strand: </h2><h3 align="center">
             <h3 align="center"><textarea name="input2" id="input2" style='margin-top: 5px;margin-bottom: 5px;' placeholder="Second DNA Strand" onkeyup='caps(this.id)' onkeypress='caps(this.id)' onupdate='caps(this.id)' onkeydown="if(acceptCharh(event.keyCode)==false){return false;}else{caps(this.id)}" oninput='console.log(this.value);' data-resizable="true"></textarea>
-            <font align='center' id="hstrlength2" color="green" size='1px'>Strand length: <text id="lenghtinput2">0</text></font><br>
+            <font align='center' id="hstrlength2" color="green" size='1px'>Strand length: <text id="lengthinput2">0</text></font><br>
 			<p class="toggle" style='color:green;font-size:15px;' onclick="togglekeyboard();">Input Keypad <img src='img\keyboard.svg' /></p>
             <form id='strand' style="color:#0066FF;">
 			<input id="DNA1" type="radio" name="StrandType" value="DNA1" onclick='hamKey("DNA1")' checked>

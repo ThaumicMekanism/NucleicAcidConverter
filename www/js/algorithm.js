@@ -1,1 +1,296 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('5 f=c;Q 2V(k,1E){1H(\'1I.0.0\',\'1B\',\'1A\');t(\'r=1z k v...\');k=k.1C();k=k.6(/ /g,"");k=2U(k,\' \',3);8(1E==\'9\'){8(k.6(/ |A|G|C|T/g,"")!==""){n{o:"c",I:"16 13 15 A, T, C, G X D p k!"}}5 9=k;t(\'r=1R p 9 v 1a j...\');5 j=1T(9);t(\'r=1R p j v 1a a 2X...\');5 W=1G(j)}N 8(1E==\'j\'){8(k.6(/ |A|G|C|U/g,"")!==""){n{o:"c",I:"16 13 15 A, U, C, G X D p k!"}}5 j=k;5 9=1U(j);5 W=1G(j)}N{n"2Y 2T 2S!"}5 9=9.6(/2N/g,"2M");5 9=9.6(/2L/g,"2O");5 9=9.6(/2P/g,"2R");5 j=j.6(/27/g,"2Q");5 j=j.6(/26/g,"30");5 j=j.6(/1Y/g,"31");Q 1T(y){5 y=y.6(/A/g,"U");5 y=y.6(/G/g,"1");5 y=y.6(/C/g,"G");5 y=y.6(/1/g,"C");5 j=y.6(/T/g,"A");n j}Q 1U(z){5 z=z.6(/A/7,"T");5 z=z.6(/G/7,"1");5 z=z.6(/C/7,"G");5 z=z.6(/1/7,"C");5 9=z.6(/U/7,"A");n 9}Q 1G(4){5 4=4.6(/3f/7,"1N");5 4=4.6(/3e/7,"1N");5 4=4.6(/38/7,"Z");5 4=4.6(/33/7,"Z");5 4=4.6(/32/7,"Z");5 4=4.6(/34/7,"Z");5 4=4.6(/35/7,"Z");5 4=4.6(/2K/7,"Z");5 4=4.6(/36/7,"1D");5 4=4.6(/3g/7,"1D");5 4=4.6(/2J/7,"1D");5 4=4.6(/2n/7,"2m");5 4=4.6(/2o/7,"1h");5 4=4.6(/2p/7,"1h");5 4=4.6(/2r/7,"1h");5 4=4.6(/2q/7,"1h");5 4=4.6(/2l/7,"10");5 4=4.6(/2s/7,"10");5 4=4.6(/2g/7,"10");5 4=4.6(/2k/7,"10");5 4=4.6(/2h/7,"1f");5 4=4.6(/2j/7,"1f");5 4=4.6(/2i/7,"1f");5 4=4.6(/2t/7,"1f");5 4=4.6(/2E/7,"1g");5 4=4.6(/2D/7,"1g");5 4=4.6(/2F/7,"1g");5 4=4.6(/2G/7,"1g");5 4=4.6(/2I/7,"1k");5 4=4.6(/2H/7,"1k");5 4=4.6(/2C/7,"1k");5 4=4.6(/2B/7,"1k");5 4=4.6(/2v/7,"1W");5 4=4.6(/2u/7,"1W");5 4=4.6(/26/7,"1J");5 4=4.6(/1Y/7,"1J");5 4=4.6(/2y/7,"1X");5 4=4.6(/2A/7,"1X");5 4=4.6(/37/7,"1Z");5 4=4.6(/3t/7,"1Z");5 4=4.6(/44/7,"21");5 4=4.6(/3U/7,"21");5 4=4.6(/3V/7,"22");5 4=4.6(/42/7,"22");5 4=4.6(/3X/7,"25");5 4=4.6(/3Z/7,"25");5 4=4.6(/41/7,"23");5 4=4.6(/3W/7,"23");5 4=4.6(/3P/7,"28");5 4=4.6(/3S/7,"28");5 4=4.6(/27/7,"1J");5 4=4.6(/4d/7,"4c");5 4=4.6(/4e/7,"11");5 4=4.6(/4b/7,"11");5 4=4.6(/4a/7,"11");5 4=4.6(/48/7,"11");5 4=4.6(/49/7,"10");5 4=4.6(/46/7,"10");5 4=4.6(/3R/7,"11");5 4=4.6(/3N/7,"11");5 4=4.6(/3r/7,"1o");5 4=4.6(/3O/7,"1o");5 4=4.6(/3u/7,"1o");5 W=4.6(/3w/7,"1o");n W}t(\'r=1F!\');n{\'9\':9,\'j\':j,\'W\':W}}Q 3j(9,24,1S,2a){5 B=24;5 19=1S;5 1c=2a;1H(\'1I.0.0\',\'1B\',\'1A\');t(\'r=1z 2c k v...\');9=9.1C();9=9.6(/ /g,"");8(9.6(/A|G|C|T/g,"")!==""){8(f==c){d.o(\'16 13 15 A, T, C, G X D p 9 v!\')}n{o:"c",I:"16 13 15 A, T, C, G X D p 9 v!"}}t(\'r=3l 3m 1l 1y 3o 1V...\');5 3n=9;5 w=9;5 b=[];5 e=[];5 x=[];5 i=0;5 1n=20;17(c){8(i==1n){8(f==c){d.1j(\'1m 1i 1t 1s Y 1u D p L 1d 1r! 1e L...\')}V}i++;8(E.3x(E.K(B+i))){8(f==c){d.h("\'"+B+i+"\' 3y!")}8(E.K(B+i).1l==c){8(E.K(1c+i).R==\'\'){n{o:"c",I:"\'"+E.K(19+i).R+"\' 1O 1b 3I a 1i 3H!"}}8(f==c){d.h("\'"+B+i+"\' 1M 1l! 3J 1V...")}b.3M(B+i);8(f==c){d.h(\'S=\'+E.K(19+i).R);d.h(\'m=\'+E.K(1c+i).R)}e[B+i]={\'S\':E.K(19+i).R,\'m\':E.K(1c+i).R}}N{8(f==c){d.h("\'"+B+i+"\' 1M 1b 1l!")}}}N{8(f==c){d.1j("\'"+B+i+"\' 1O 1b X! 1e L...")}V}}8(b.q==0){8(f==c){d.o(\'1P M 1x 1Q!\')}n{o:"c",I:"1P M 1x 1Q!"}}5 i=0;t(\'r=29 k v...\');17(c){8(i==1n){8(f==c){d.1j(\'1m 1i 1t 1s Y 1u D p L 1d 1r! 1e L...\')}V}8(f==c){d.h("29: "+e[b[i]][\'S\']+" @ "+e[b[i]][\'m\'])}w=w.6(H J(e[b[i]][\'m\'],"g")," < "+e[b[i]][\'m\']+" > ");8((w.P(H J(e[b[i]][\'m\'],"g"))||[]).q!=(9.P(H J(e[b[i]][\'m\'],"g"))||[]).q){x[b[i]]={\'1w\':(w.P(H J(e[b[i]][\'m\'],"g"))||[]).q,\'12\':(9.P(H J(e[b[i]][\'m\'],"g"))||[]).q};8(f==c){d.h("2z 1b 1K \'"+(9.P(H J(e[b[i]][\'m\'],"g"))||[]).q+"\' Y "+e[b[i]][\'S\']+"\'s ("+e[b[i]][\'m\']+") M 1p!")}}N{x[b[i]]={\'1w\':(w.P(H J(e[b[i]][\'m\'],"g"))||[]).q,\'12\':0};8(f==c){d.h("2b \'"+e[b[i]][\'S\']+"\' ("+e[b[i]][\'m\']+") "+(w.P(H J(e[b[i]][\'m\'],"g"))||[]).q+" 3D 3E.")}}8(i==b.q-1){V}i++}t(\'r=3C 3B...\');5 l=\'\';5 1q=\'\';5 i=0;17(c){8(i==1n){8(f==c){d.1j(\'1m 1i 1t 1s Y 1u D p L 1d 1r! 1e L...\')}V}5 1q=e[b[i]];5 l=l+1q[\'S\']+\': \'+1q[\'m\']+\'; \'+x[b[i]][\'1w\']+\' \';8(x[b[i]][\'12\']>0){5 l=l+\'(3z! \'+x[b[i]][\'12\']+\' M\';8(x[b[i]][\'12\']==1){5 l=l+\' 1x 1d \'}N{5 l=l+\' 1p 3A \'}5 l=l+\'3F 1a 2d 1K 3G 1a 3L M 2e!)\'}5 l=l+\'<3K>\';8(i==b.q-1){V}i++}8(f==c){d.h(\'2b 9 v.\');d.h(w);d.h(\'3i M 1p.\');d.h(b);d.h(\'1y 2e 3k 2f 1K 3p.\');d.h(e);d.h(\'3q Y 3s Y p M 1p.\');d.h(x);d.h(\'1y 47 2f 43 3T.\');d.h(l)}t(\'r=1F!\');n{\'w\':w,\'b\':b,\'e\':e,\'x\':x,\'l\':l}}Q 45(18,1v){5 u=[[\'3h\',18],[\'2x\',1v]];1H(\'1I.0.0\',\'1B\',\'1A\');t(\'r=1z 2c k 1L...\');i=0;17(i<2){u[i][1]=u[i][1].1C();u[i][1]=u[i][1].6(/ /g,"");8(u[i][1].6(/A|G|C|T|2w/g,"")!==""){5 F=\'16 13 15 A, T, C, G X D p \'+u[i][0]+\' 9 v!\';8(f==c){d.o(F)}n{o:"c",I:F}}8(u[i][1]==""){5 F=\'39 3d 3c D p \'+u[i][0]+\' 9 v!\';8(f==c){d.o(F)}n{o:"c",I:F}}i++}8(u[0][1].q!==u[1][1].q){5 F=\'1m 2Z 9 1L 2W 2d p 3b 3a!\';8(f==c){d.o(F)}n{o:"c",I:F}}t(\'r=3Q 3Y 40...\');5 i=0;5 O="";5 14=0;17(i<18.q){8(18[i]!==1v[i]){14=14+1;O=O+"^"}N{O=O+"&3v;"}i++}t(\'r=1F!\');n{\'O\':O,\'14\':14}}',62,263,'||||vmRNAtoProt|var|replace|gi|if|DNA||REchecked|true|console|REcinfo|debug||log||mRNA|input|REstuff|REcode|return|error|the|length|updatetxt||loadingscreen|HCdna|strand|cutDNA|REnumcut|vDNAtomRNA|vmRNAtoDNA||RSBS||in|document|msg||new|message|RegExp|getElementById|loop|restriction|else|diff|match|function|value|REname|||break|Prot|exist|of|LEU|SER|ARG|numUncut|other|numdiff|than|Letters|while|dna1|RSBN|to|not|RSBC|was|Exiting|PRO|THR|VAL|set|warn|ALA|checked|The|imax|GLY|sites|tempstuff|reached|amout|maximum|repeats|dna2|numCut|site|Restriction|Cleaning|54be25ec596f7c331fab62ebbf461d14|banana|toUpperCase|ILE|StrandType|Done|mRNAtoProt|TMjsUExistCheck|v1|STOP|cut|strands|is|PHE|does|No|selected|Converting|restrictionSiteBaseName|DNAtomRNA|mRNAtoDNA|info|TYR|HIS|UAG|GLN||ASN|LYS|GLU|restrictionSiteBaseSelected|ASP|UAA|UGA|CYS|Cutting|restictionSiteBaseCode|Cut|up|be|enzyme|and|UCA|CCU|CCA|CCC|UCG|UCU|MET|AUG|GUU|GUC|GUG|GUA|UCC|CCG|UAC|UAU|_|second|CAU|Could|CAC|GCG|GCA|ACC|ACU|ACA|ACG|GCC|GCU|AUA|CUG|ATT|ACT_|ACT|ATT_|ATC|UGA_|ATC_|TYPE|STRAND|insertNthChar|converter|must|Protein|UNKNOWN|two|UAA_|UAG_|CUU|UUG|CUC|CUA|AUU|CAA|UUA|Please|lenght|same|something|enter|UUC|UUU|AUC|first|Checked|restrictionSiteFinder|name|Getting|all|DNAo|Enzymes|pattern|Number|GGU|cuts|CAG|GGA|nbsp|GGG|contains|exists|WARNING|were|information|Compiling|many|times|unable|due|code|have|Grabbing|br|another|push|AGG|GGC|UGU|Calculating|AGA|UGC|output|AAC|AAA|GAG|GAU|hamming|GAC|difference|GAA|AAG|stuff|AAU|hammingCode|AGC|Sites|CGG|AGU|CGA|CGC|TRP|UGG|CGU'.split('|'),0,{}))
+var debug=true; //if(debug==true){console.log();}
+/* 
+* DNA to mRNA to Protein Converter Function.
+* SYNTAX: converter(Strand,StrandType);
+* Strand is a strand only consisting of A's G's C's and T's or U's.
+* 
+* 
+*/
+function converter(input, StrandType){
+    
+    //checks to see if TMjsUtilities is the right version.
+    TMjsUExistCheck('v1.0.0','banana','54be25ec596f7c331fab62ebbf461d14');
+	loadingscreen('updatetxt=Cleaning input strand...');
+	//Make input all uppercase.
+    input = input.toUpperCase();
+	//Remove all spaces in the string.
+    input = input.replace(/ /g, "");
+	
+	//Add's a space every three characters.
+    input = insertNthChar(input, ' ', 3);
+    
+	//Checks if the input strand is DNA or mRNA so it can be processed.
+	if(StrandType=='DNA'){
+        //Checks to see if there are other letters than A, T, C, G.
+        if(input.replace(/ |A|G|C|T/g,"") !== ""){return {error:"true", message:"Letters other than A, T, C, G exist in the input!"};}
+		var DNA=input;
+		loadingscreen('updatetxt=Converting the DNA strand to mRNA...');
+        var mRNA=DNAtomRNA(DNA);
+		loadingscreen('updatetxt=Converting the mRNA strand to a Protein...');
+        var Prot=mRNAtoProt(mRNA);
+	}else if(StrandType=='mRNA'){
+    //Checks to see if there are other letters than A, U, C, G.
+        if(input.replace(/ |A|G|C|U/g,"") !== ""){return {error:"true", message:"Letters other than A, U, C, G exist in the input!"};}
+		var mRNA=input;
+        var DNA=mRNAtoDNA(mRNA);
+        var Prot=mRNAtoProt(mRNA);
+	}else{
+		return "UNKNOWN STRAND TYPE!";
+	}
+    
+    var DNA = DNA.replace(/ACT/g,"ACT_");
+    var DNA = DNA.replace(/ATT/g,"ATT_");
+    var DNA = DNA.replace(/ATC/g,"ATC_");
+    var mRNA = mRNA.replace(/UGA/g,"UGA_");
+    var mRNA = mRNA.replace(/UAA/g,"UAA_");
+    var mRNA = mRNA.replace(/UAG/g,"UAG_");
+    
+    
+    //Converts the DNA strand to mRNA.
+    function DNAtomRNA(vDNAtomRNA){
+        //Replaces each charachter with the corresponding letter. (A->U & G->C & C->G & T->A)
+        var vDNAtomRNA = vDNAtomRNA.replace(/A/g, "U");
+        var vDNAtomRNA = vDNAtomRNA.replace(/G/g, "1");
+        var vDNAtomRNA = vDNAtomRNA.replace(/C/g, "G");
+        var vDNAtomRNA = vDNAtomRNA.replace(/1/g, "C");
+        var mRNA = vDNAtomRNA.replace(/T/g, "A");
+        return mRNA;
+    }
+    //Converts the mRNA strand to DNA.
+    function mRNAtoDNA(vmRNAtoDNA){
+        //Replaces each charachter with the corresponding letter. (U->A & C->G & G->C & A->T)
+        var vmRNAtoDNA = vmRNAtoDNA.replace(/A/gi, "T");
+        var vmRNAtoDNA = vmRNAtoDNA.replace(/G/gi, "1");
+        var vmRNAtoDNA = vmRNAtoDNA.replace(/C/gi, "G");
+        var vmRNAtoDNA = vmRNAtoDNA.replace(/1/gi, "C");
+        var DNA = vmRNAtoDNA.replace(/U/gi, "A");
+        return DNA;
+    }
+    //Converts the mRNA strand to an amino acid chain (a protein).
+    function mRNAtoProt(vmRNAtoProt){
+        //Replaces each codon with the corresponding amino acid.
+        var vmRNAtoProt = vmRNAtoProt.replace(/UUU/gi, "PHE");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UUC/gi, "PHE");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UUA/gi, "LEU");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UUG/gi, "LEU");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CUU/gi, "LEU");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CUC/gi, "LEU");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CUA/gi, "LEU");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CUG/gi, "LEU");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AUU/gi, "ILE");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AUC/gi, "ILE");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AUA/gi, "ILE");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AUG/gi, "MET");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GUU/gi, "VAL");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GUC/gi, "VAL");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GUA/gi, "VAL");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GUG/gi, "VAL");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UCU/gi, "SER");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UCC/gi, "SER");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UCA/gi, "SER");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UCG/gi, "SER");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CCU/gi, "PRO");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CCC/gi, "PRO");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CCA/gi, "PRO");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CCG/gi, "PRO");
+        var vmRNAtoProt = vmRNAtoProt.replace(/ACU/gi, "THR");
+        var vmRNAtoProt = vmRNAtoProt.replace(/ACC/gi, "THR");
+        var vmRNAtoProt = vmRNAtoProt.replace(/ACA/gi, "THR");
+        var vmRNAtoProt = vmRNAtoProt.replace(/ACG/gi, "THR");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GCU/gi, "ALA");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GCC/gi, "ALA");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GCA/gi, "ALA");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GCG/gi, "ALA");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UAU/gi, "TYR");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UAC/gi, "TYR");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UAA/gi, "STOP");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UAG/gi, "STOP");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CAU/gi, "HIS");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CAC/gi, "HIS");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CAA/gi, "GLN");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CAG/gi, "GLN");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AAU/gi, "ASN");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AAC/gi, "ASN");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AAA/gi, "LYS");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AAG/gi, "LYS");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GAU/gi, "ASP");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GAC/gi, "ASP");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GAA/gi, "GLU");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GAG/gi, "GLU");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UGU/gi, "CYS");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UGC/gi, "CYS");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UGA/gi, "STOP");
+        var vmRNAtoProt = vmRNAtoProt.replace(/UGG/gi, "TRP");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CGU/gi, "ARG");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CGC/gi, "ARG");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CGA/gi, "ARG");
+        var vmRNAtoProt = vmRNAtoProt.replace(/CGG/gi, "ARG");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AGU/gi, "SER");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AGC/gi, "SER");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AGA/gi, "ARG");
+        var vmRNAtoProt = vmRNAtoProt.replace(/AGG/gi, "ARG");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GGU/gi, "GLY");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GGC/gi, "GLY");
+        var vmRNAtoProt = vmRNAtoProt.replace(/GGA/gi, "GLY");
+        var Prot = vmRNAtoProt.replace(/GGG/gi, "GLY");
+        return Prot;
+    }
+    loadingscreen('updatetxt=Done!');
+return {'DNA': DNA,'mRNA': mRNA,'Prot': Prot};}
+
+function restrictionSiteFinder(DNA, restrictionSiteBaseSelected, restrictionSiteBaseName, restictionSiteBaseCode){
+	var RSBS=restrictionSiteBaseSelected;
+	var RSBN=restrictionSiteBaseName;
+	var RSBC=restictionSiteBaseCode;
+	
+	//checks to see if TMjsUtilities is the right version.
+    TMjsUExistCheck('v1.0.0','banana','54be25ec596f7c331fab62ebbf461d14');
+	loadingscreen('updatetxt=Cleaning up input strand...');
+	//Make input all uppercase.
+    DNA = DNA.toUpperCase();
+	//Remove all spaces in the string.
+    DNA = DNA.replace(/ /g, "");
+	//Checks to see if there are other letters than A, T, C, G.
+	if(DNA.replace(/A|G|C|T/g,"") !== ""){
+		if(debug==true){console.error('Letters other than A, T, C, G exist in the DNA strand!');}
+		return {error:"true", message:"Letters other than A, T, C, G exist in the DNA strand!"};
+	}
+	
+	loadingscreen('updatetxt=Getting all checked Restriction Enzymes info...');
+	var DNAo=DNA;
+	var cutDNA=DNA;
+	var REchecked=[];
+	var REcinfo=[];
+	var REnumcut=[];
+	var i=0;
+	var imax=20;
+	while(true){if(i==imax){if(debug==true){console.warn('The set maximum amout of repeats in the loop was reached! Exiting loop...');} break;}
+		i++;
+		if(document.contains(document.getElementById(RSBS+i))){
+			if(debug==true){console.log("'"+RSBS+i+"' exists!");}
+			if(document.getElementById(RSBS+i).checked==true){
+				if(document.getElementById(RSBC+i).value==''){
+					return {error:"true", message:"'"+document.getElementById(RSBN+i).value+"' does not have a set code!"};
+				}
+				if(debug==true){console.log("'"+RSBS+i+"' is checked! Grabbing info...");}
+				REchecked.push(RSBS+i);
+				if(debug==true){console.log('REname='+document.getElementById(RSBN+i).value); console.log('REcode='+document.getElementById(RSBC+i).value)}
+				REcinfo[RSBS+i]={'REname':document.getElementById(RSBN+i).value,'REcode':document.getElementById(RSBC+i).value};
+			}else{
+				if(debug==true){console.log("'"+RSBS+i+"' is not checked!");}
+			}
+		}else{
+			if(debug==true){console.warn("'"+RSBS+i+"' does not exist! Exiting loop...");}
+			break;
+		}
+	}
+	if(REchecked.length == 0){
+		if(debug==true){console.error('No restriction site selected!');}
+		return {error:"true", message:"No restriction site selected!"};
+	}
+	var i=0;
+	loadingscreen('updatetxt=Cutting input strand...');
+	while(true){if(i==imax){if(debug==true){console.warn('The set maximum amout of repeats in the loop was reached! Exiting loop...');} break;}
+		
+		//Converting any matching input  Ex. from AATTGGG to A < ATTGG > G if ATTGG is the code.
+		if(debug==true){console.log("Cutting: "+REcinfo[REchecked[i]]['REname']+" @ "+REcinfo[REchecked[i]]['REcode']);}
+		cutDNA = cutDNA.replace(new RegExp(REcinfo[REchecked[i]]['REcode'],"g")," < "+REcinfo[REchecked[i]]['REcode']+" > ");
+		
+		//Checking to see how many cuts it made
+		if ((cutDNA.match(new RegExp(REcinfo[REchecked[i]]['REcode'], "g")) || []).length != (DNA.match(new RegExp(REcinfo[REchecked[i]]['REcode'], "g")) || []).length){
+			REnumcut[REchecked[i]]={'numCut':(cutDNA.match(new RegExp(REcinfo[REchecked[i]]['REcode'], "g")) || []).length, 'numUncut':(DNA.match(new RegExp(REcinfo[REchecked[i]]['REcode'], "g")) || []).length};
+			if(debug==true){console.log("Could not cut '" + (DNA.match(new RegExp(REcinfo[REchecked[i]]['REcode'], "g")) || []).length+"' of "+REcinfo[REchecked[i]]['REname']+"'s ("+REcinfo[REchecked[i]]['REcode']+") restriction sites!")};
+		}else{
+			REnumcut[REchecked[i]]={'numCut':(cutDNA.match(new RegExp(REcinfo[REchecked[i]]['REcode'], "g")) || []).length, 'numUncut':0};
+			if(debug==true){console.log("Cut '"+REcinfo[REchecked[i]]['REname']+"' ("+REcinfo[REchecked[i]]['REcode']+") "+(cutDNA.match(new RegExp(REcinfo[REchecked[i]]['REcode'], "g")) || []).length+" many times.");}
+		}
+		
+		
+		if(i==REchecked.length-1){
+			break;
+		}
+		i++;
+	}
+	//This loop gets all the restriction sites and info and compiles it into one file.
+	loadingscreen('updatetxt=Compiling information...');
+	var REstuff='';
+	var tempstuff='';
+	var i=0;
+	while(true){if(i==imax){if(debug==true){console.warn('The set maximum amout of repeats in the loop was reached! Exiting loop...');} break;}
+		//This loop is for REcinfo[REchecked[i]] where i is the active restriction site being processed.
+		var tempstuff=REcinfo[REchecked[i]];
+		var REstuff=REstuff+tempstuff['REname']+': '+tempstuff['REcode']+'; '+REnumcut[REchecked[i]]['numCut']+' ';
+		if (REnumcut[REchecked[i]]['numUncut']>0){
+			var REstuff=REstuff+'(WARNING! '+REnumcut[REchecked[i]]['numUncut']+' restriction';
+				if(REnumcut[REchecked[i]]['numUncut']==1){
+					var REstuff=REstuff+' site was ';
+				}else{
+					var REstuff=REstuff+' sites were '
+				}
+				var REstuff=REstuff+'unable to be cut due to another restriction enzyme!)';
+		}
+		var REstuff=REstuff+'<br>';
+		if(i==REchecked.length-1){
+			break;
+		}
+	i++;}
+	if(debug==true){
+		console.log('Cut DNA strand.');
+		console.log(cutDNA);
+		console.log('Checked restriction sites.');
+		console.log(REchecked);
+		console.log('Restriction enzyme name and cut pattern.');
+		console.log(REcinfo);
+		console.log('Number of cuts of the restriction sites.');
+		console.log(REnumcut);
+		console.log('Restriction Sites and stuff output.');
+		console.log(REstuff);
+	}
+	loadingscreen('updatetxt=Done!');
+	return {'cutDNA':cutDNA, 'REchecked':REchecked, 'REcinfo':REcinfo , 'REnumcut':REnumcut, 'REstuff':REstuff};
+}
+function hammingCode(dna1,dna2){
+        var HCdna=[['first',dna1],['second',dna2]];
+    	//checks to see if TMjsUtilities is the right version.
+        TMjsUExistCheck('v1.0.0','banana','54be25ec596f7c331fab62ebbf461d14');
+        loadingscreen('updatetxt=Cleaning up input strands...');
+        i=0;
+        while(i<2){
+            //Make input all uppercase.
+            HCdna[i][1] = HCdna[i][1].toUpperCase();
+            //Remove all spaces in the string.
+            HCdna[i][1] = HCdna[i][1].replace(/ /g, "");
+            //Checks to see if there are other letters than A, T, C, G.
+            if(HCdna[i][1].replace(/A|G|C|T|_/g,"") !== ""){
+                var msg = 'Letters other than A, T, C, G exist in the '+HCdna[i][0]+' DNA strand!';
+                if(debug==true){console.error(msg);}
+                return {error:"true", message:msg};
+            }
+            if(HCdna[i][1] == ""){
+                var msg = 'Please enter something in the '+HCdna[i][0]+' DNA strand!';
+                if(debug==true){console.error(msg);}
+                return {error:"true", message:msg};
+            }
+            i++;
+        }
+        if(HCdna[0][1].length !== HCdna[1][1].length){
+            var msg = 'The two DNA strands must be the same lenght!';
+            if(debug==true){console.error(msg);}
+            return {error:"true", message:msg};
+        }
+		loadingscreen('updatetxt=Calculating hamming difference...');
+		var i=0;
+		var diff="";
+		var numdiff=0;
+        while(i<dna1.length){
+			if(dna1[i]!==dna2[i]){
+				numdiff=numdiff+1;
+				diff=diff+"^";
+			}else{
+				diff=diff+"&nbsp;";
+			}
+			i++;
+		}
+		loadingscreen('updatetxt=Done!');
+        return {'diff':diff,'numdiff':numdiff};
+}
